@@ -1,0 +1,140 @@
+@import './template';
+@import './vars';
+.headerblock{
+    display: flex;
+    justify-content:space-between;
+}
+.headerblock__img-logo {
+    max-width: 200px;
+    height: 40px;
+
+}
+.headerblock__btn {
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 115px;
+    width: 100%;
+    height: 38px;
+    border-radius: 100px;
+    background-color: #5222D0;
+    
+}
+.headerblock__cart {
+  font-family: $font;
+    color: #fff;
+}
+.headerblock__icon{
+    align-self: center;
+    margin-top: 5px;
+    max-width: 14px;
+    width: 100%;
+    height: 14px;
+}
+.cards__main-title{
+    max-width: 542px;
+    height: 72px;
+    font-family: $font;
+    font-weight: 400;
+    font-size: 60px;
+}
+.cards__first {
+    display: flex;
+    gap: 75px;
+
+}
+.cards__card { 
+    max-width: 440px;
+    height: 550px;
+}
+.cards__img-block {
+    position: relative;
+   
+}
+.cards__img-block2{
+    position: absolute;
+    top:5px;
+    left:12px;
+}
+.cards__img-block2_var{
+    top:0;
+    left:24px;
+}
+.cards__title{
+   padding-top: 25px;
+    font-family: $font;
+    font-size: 30px;
+    font-weight: 400px;
+}
+.cards__info{
+    font-family: $font;
+    font-size: 20px;
+}
+.cards__second{
+    display: flex;
+gap: 75px;
+}
+.cards__card2{
+    max-width: 365px;
+    width: 100%;
+}
+.cards__title2{
+    font-family: $font;
+    font-size: 30px;
+}
+.cards__text{
+    font-family: $font;
+    font-size: 20px;
+}
+.cards__news{
+    background-color: $colorMain;
+    max-width: 365px;
+    width: 100%;
+    height: 233px;
+}
+.cards__news-text{
+    max-width: 325px;
+    height: 36px;
+    font-family: $font;
+    font-size: 30px;
+    margin-left: 18px;
+}
+.cards__email{
+    max-width: 300px;
+width: 100%;
+    height: 50px;
+    margin-left: 18px;
+    font-family: $font;
+}
+.cards__btn-news{
+    margin-top: 32px;
+    margin-left: 18px;
+    max-width: 135px;
+    min-height: 38px;
+    border: none;
+    border-radius: 37px;
+    color:#fff;
+    font-family: $font;
+    font-size: 13px;
+    font-weight: 400;
+line-height: normal;
+    background-color:#5222D0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4c;
+}
+.finish__links{
+    margin-top: 84px;
+    list-style: none;
+}
+.finish__link{
+    text-decoration: none;
+    font-family: $font;
+    font-size: 20px;
+    margin-right: 34px;
+    color: #000;
+}
+
+li{
+    float: left;
+}
